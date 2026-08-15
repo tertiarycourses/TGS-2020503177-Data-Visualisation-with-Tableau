@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workbook source-build="2024.2" source-platform="win" version="18.1" xmlns:user="http://www.tableausoftware.com/xml/user">
+  <preferences><preference name="ui.encoding.shelf.height" value="24" /></preferences>
+  <datasources>
+    <datasource caption="Lab 3 - Relate Orders, Products and Returns" inline="true" name="federated.lab03" version="18.1">
+      <connection class="federated"><named-connections><named-connection caption="Lab 3 - Relate Orders, Products and Returns" name="excel-direct.lab03"><connection class="excel-direct" filename="lab-03-related-retail-data.xlsx" /></named-connection></named-connections>
+        <relation connection="excel-direct.lab03" name="Orders" table="[Orders$]" type="table" />
+      </connection>
+    </datasource>
+  </datasources>
+  <worksheets><worksheet name="Lab 3 - Relate Orders, Products and Returns"><repository-location derived-from="[workbook].[Lab 3 - Relate Orders, Products and Returns]" id="1" path="/workbooks" revision="1.0" /><table><view><datasources><datasource caption="Lab 3 - Relate Orders, Products and Returns" name="federated.lab03" /></datasources><aggregation value="true" /></view><style /></table></worksheet></worksheets>
+  <windows><window class="worksheet" name="Lab 3 - Relate Orders, Products and Returns"><cards><edge name="left"><strip size="160"><card type="pages" /><card type="filters" /><card type="marks" /></strip></edge><edge name="top"><strip size="214"><card type="columns" /><card type="rows" /></strip></edge></cards></window></windows>
+</workbook>

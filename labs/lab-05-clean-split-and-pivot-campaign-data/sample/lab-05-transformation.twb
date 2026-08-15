@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workbook source-build="2024.2" source-platform="win" version="18.1" xmlns:user="http://www.tableausoftware.com/xml/user">
+  <preferences><preference name="ui.encoding.shelf.height" value="24" /></preferences>
+  <datasources>
+    <datasource caption="Lab 5 - Clean, Split and Pivot Campaign Data" inline="true" name="federated.lab05" version="18.1">
+      <connection class="federated"><named-connections><named-connection caption="Lab 5 - Clean, Split and Pivot Campaign Data" name="excel-direct.lab05"><connection class="excel-direct" filename="lab-05-messy-campaign-data.xlsx" /></named-connection></named-connections>
+        <relation connection="excel-direct.lab05" name="Campaign Export" table="[Campaign Export$]" type="table" />
+      </connection>
+    </datasource>
+  </datasources>
+  <worksheets><worksheet name="Lab 5 - Clean, Split and Pivot Campaign Data"><repository-location derived-from="[workbook].[Lab 5 - Clean, Split and Pivot Campaign Data]" id="1" path="/workbooks" revision="1.0" /><table><view><datasources><datasource caption="Lab 5 - Clean, Split and Pivot Campaign Data" name="federated.lab05" /></datasources><aggregation value="true" /></view><style /></table></worksheet></worksheets>
+  <windows><window class="worksheet" name="Lab 5 - Clean, Split and Pivot Campaign Data"><cards><edge name="left"><strip size="160"><card type="pages" /><card type="filters" /><card type="marks" /></strip></edge><edge name="top"><strip size="214"><card type="columns" /><card type="rows" /></strip></edge></cards></window></windows>
+</workbook>

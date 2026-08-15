@@ -1,0 +1,13 @@
+.env
+.env.*
+.DS_Store
+~$*
+assessment/
+reference/
+courseware/build/
+courseware/assets/
+courseware/qa/
+courseware/archive/
+.claude/
+__pycache__/
+*.pyc
